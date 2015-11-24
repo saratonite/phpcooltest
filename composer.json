@@ -1,0 +1,17 @@
+{
+    "name": "saratonite/supertest",
+    "description": "Fight with php unit",
+    "authors": [
+        {
+            "name": "Sarath",
+            "email": "sarath.hacks@gmail.com"
+        }
+    ],
+    "autoload": {
+    	"psr-4": {
+    		"Saratonite\\phpcooltest\\": "src/",
+    		"Saratonite\\phpcooltest\\Tests\\": "tests/"
+    	}
+    },
+    "require": {}
+}

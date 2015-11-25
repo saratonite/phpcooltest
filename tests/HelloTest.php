@@ -1,7 +1,5 @@
 <?php
 namespace Sartonite\phpcooltest\Tests;
-require(__DIR__."/../vendor/autoload.php");
-
 
 class HelloTest extends \PHPUnit_Framework_TestCase {
 

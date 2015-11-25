@@ -1,2 +1,3 @@
 # phpcooltest
-Php tests
+Php tests . Nothing special . Just for learning .
+

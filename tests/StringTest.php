@@ -19,4 +19,13 @@ class StringTest extends PHPUnit_Framework_TestCase{
 		$this->assertSame(5,$this->str->length());
 	}
 
+	public function testSubstr(){
+
+		// start and length
+
+		$sub = substr($this->str->value,2,2);
+		$this->assertEquals('ll',$sub);
+
+	}
+
 }

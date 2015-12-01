@@ -9,9 +9,14 @@
     ],
     "autoload": {
     	"psr-4": {
-    		"Saratonite\\phpcooltest\\": "src/",
-    		"Saratonite\\phpcooltest\\Tests\\": "tests/"
+    		"Saratonite\\phpcooltest\\": "src/"
     	}
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Saratonite\\phpcooltest\\Tests\\": "tests/"
+
+        }
     },
     "require": {}
 }

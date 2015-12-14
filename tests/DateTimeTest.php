@@ -20,4 +20,9 @@ class DateTimeTest extends PHPUnit_Framework_TestCase {
 	public function testSettimezone(){
 		$this->start->setTimezone(new DateTimeZone(self::TIMEZONE));
 	}
+
+	public function testFormat(){
+		$formated = $this->start->format('Y-m-d');
+		$this->assertEquals(10,strlen($formated));
+	}
 }

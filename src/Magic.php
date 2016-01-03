@@ -15,7 +15,7 @@ class Magic{
 	}
 
 	public function __invoke(){
-		echo "You called the invoke\n";
+		echo "You called the invoke";
 	}
 
 	public function __call($name,$args=[]){
@@ -37,7 +37,7 @@ class Magic{
 	}
 
 	public function __set($name,$value){
-		echo "You trying to set $name with $value \n";
+		//echo "You trying to set $name with $value \n";
 		$this->data[$name] = $value;
 	}
 }

@@ -16,4 +16,10 @@ class MagicTest extends PHPUnit_Framework_TestCase{
 
 		$this->assertEquals($thestring,"Its magic\n");
 	}
+
+	public function testSetget(){
+		$this->magic->name = "sarath";
+
+		$this->assertEquals($this->magic->name,"sarath");
+	}
 }
